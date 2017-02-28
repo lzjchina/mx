@@ -1,4 +1,4 @@
-html,body,ul,li{
+html,body,ul,li,dl,dd,dt{
 	padding:0;
 	margin:0;
 }
@@ -10,6 +10,10 @@ a{
 }
 em,i{
 	font-style:normal;
+}
+img{
+	display:block;
+	border:0;
 }
 /********************头部**********************/
 #header{
@@ -27,42 +31,153 @@ em,i{
 	line-height:35px;
 }
 /*左边*/
-.h-sec-one .sec-one-con .left{
+.h-sec-one .sec-one-con .login-reg{
 	float:left;
 	width:170px;
 }
-.h-sec-one .sec-one-con .left li{
+.h-sec-one .sec-one-con .login-reg li{
 	float:left;
 	margin-right:13px;
 	font-size:14px;
 	color:#cccccc;
 }
-.h-sec-one .sec-one-con .left li a{
+.h-sec-one .sec-one-con  li a{
 	color:#7a7a7a;
 }
 /*右边*/
-.h-sec-one .sec-one-con .right{
+.h-sec-one .sec-one-con .link-info{
 	float:right;
 	width:400px;
 	font-size:14px;
+	
 }
-.h-sec-one .sec-one-con .right li{
+.h-sec-one .sec-one-con .link-info li{
 	float:left;
 	color:#7a7a7a;
 }
-.h-sec-one .sec-one-con .right .aboutus{
-	margin-right:25px;
+/*关注我们*/
+.h-sec-one .sec-one-con .link-info .aboutus{
+	position:relative;
 }
-.h-sec-one .sec-one-con .right .aboutus em{
+.h-sec-one .sec-one-con .link-info .aboutus em{
 	display: inline-block;
 	vertical-align: middle;
 	width:15px;
 	height:15px;
 	background:url(../img/indexNew/headico01.png) no-repeat left -15px;
 }
-.h-sec-one .sec-one-con .right .aboutus:hover em{
-	background-position: -20px -15px;;
+.h-sec-one .sec-one-con .link-info .aboutus:hover em{
+	background-position: -20px -15px;
 }
-.h-sec-one .sec-one-con .right li a{
-	color:#7a7a7a;
+.h-sec-one .sec-one-con .link-info .weixin-weibo{
+	width:140px;
+	height:55px;
+	border:1px solid gray;
+	position:absolute;
+	right:0;
+	top:35px;
+	display: none;
+	padding-left:10px;
+}
+.h-sec-one .sec-one-con .link-info .aboutus:hover .weixin-weibo{
+	display: block;
+} 
+.h-sec-one .sec-one-con .link-info .weixin-weibo a{
+	float:left;
+	margin-right:10px;
+}
+.h-sec-one .sec-one-con .link-info .weibo{
+	width:34px;
+	height:27px;
+	background:url(../img/indexNew/footico.gif) no-repeat left -23px;
+	margin-left:8px;
+}
+.h-sec-one .sec-one-con .link-info .weixin{
+	width:29px;
+	height:27px;
+	background:url(../img/indexNew/footico.gif) no-repeat right top;
+	margin-left:8px;
+	
+}
+/*购物袋*/
+.h-sec-one .sec-one-con .link-info .shop-car{
+	padding-left:20px;
+	
+}
+.h-sec-one .sec-one-con .link-info .shop-car:hover{
+	background:white;
+}
+.h-sec-one .sec-one-con .link-info .shop-car span{
+	font-size:13px;
+	padding-left:25px;
+	background:url(../img/indexNew/headico01.png) no-repeat left -28px;
+}
+.h-sec-one .sec-one-con .link-info .shop-car i{
+	background: url(../img/line-vertical.gif);
+	width:2px;
+}
+.h-sec-one .sec-one-con .link-info .shop-car b{
+	float:right;
+	margin-top:15px;
+}
+/*模块二*/
+#header .h-sec-two{
+	width:960px;
+	height:100px;
+	 margin:15px auto 12px;
+	padding-left:10px;
+	
+}
+.h-sec-two .mxappBox{
+	width:340px;
+	float:left;
+	position:relative;
+}
+.h-sec-two .mxappBox span{
+	position: absolute;
+	top:20px;
+	left:90px;
+}
+.h-sec-two .mxlogo{
+	margin:25px 0;
+	float:left;
+}
+.h-sec-two .search{
+	float:right;
+	margin-top:40px;
+	width:150px;
+	height:25px;
+	border:1px solid gray;
+}
+.h-sec-two .search input{
+	border:0;
+	float:left;
+}
+.h-sec-two .search .sear-text{
+	width:120px;
+	height:23px;
+}
+.h-sec-two .search .btser{
+	width:24px;
+	height:24px;
+	background: url(../img/searchBtn.gif) no-repeat;
+}
+/*模块三(菜单)*/
+#header .nav{
+	width:960px;
+	height:33px;
+	margin:0 auto;
+	border-bottom:1px solid black;
+}
+#header .nav li{
+	float:left;
+	width:96px;
+	text-align:center;
+	line-height:33px ;
+}
+#header .nav li a{
+	color:black;
+	width:96px;
+	height:33px;
+	display:block;
 }

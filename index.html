@@ -6,6 +6,10 @@
 		<title></title>
 		<link rel="stylesheet" type="text/css" href="css/index.css" />
 		<link rel="stylesheet" type="text/css" href="css/public.css" />
+		<script src="lib/jquery/jquery-1.12.0.js"></script>
+		<script src="lib/jquery/unslider.min.js"></script>
+		<script src="js/public.js"></script>
+		<script src="js/index.js"></script>
 	</head>
 
 	<body>
@@ -14,25 +18,46 @@
 			<!--模块一(带有购物车部分)-->
 			<div class="h-sec-one">
 				<div class="sec-one-con">
-					<ul class="left">
-						<li><a href="#">登录</a></li>
+					<ul class="login-reg">
+						<li>
+							<a href="#">登录</a>
+						</li>
 						<li><span>|</span></li>
-						<li><a href="#">注册</a></li>
-						<li><a href="#" title="订单查询">订单查询</a></li>
-						
+						<li>
+							<a href="#">注册</a>
+						</li>
+						<li>
+							<a href="#" title="订单查询">订单查询</a>
+						</li>
+
 					</ul>
-					
-					<ul class="right">
+
+					<ul class="link-info">
 						<li style="margin-right:23px;">客服热线：4000-250- 630</li>
 						<li class="aboutus">
 							<em></em>
 							<span>关注我们</span>
+							<div class="weixin-weibo">
+								<a href="#">
+									<dl>
+										<dt class="weibo"></dt>
+										<dd>新浪微博</dd>
+									</dl>
+								</a>
+								<a href="#">
+									<dl>
+										<dt class="weixin"></dt>
+										<dd>美西微信</dd>
+									</dl>
+								</a>
+							</div>
 						</li>
-						<li>
+						<!--购物车-->
+						<li class="shop-car">
 							<a href="#">
-								
-								<span>购物袋(<em>0</em>)</span>
-								<i></i>
+
+								<span>购物袋(<em style="color:red">0</em>)</span>
+								<i>|</i>
 								<b><img src="img/pic_arrow_u_cur.gif" /> </b>
 							</a>
 						</li>
@@ -40,14 +65,226 @@
 				</div>
 			</div>
 			<!--模块二(带有搜索栏部分)-->
-			<div class="h-sec-two"></div>
+			<div class="h-sec-two">
+				<div class="mxappBox">
+					<a href="#"><img src="img/ewm_indexTop.png" /> </a>
+						<span> <img src="img/ewm_txt.png" </span>
+				</div>
+				<div class="mxlogo">
+					<a href="#"><img src="img/meicilogo.png " /></a>
+				</div>
+				<div class="search">
+					<input type="text" placeholder="请输入您的关键字" class="sear-text" />
+					<input type="button" class="btser" />
+				</div>
+			</div>
 			<!--模块三(导航)-->
-			<div class="h-sec-three"></div>
+			<div class="h-sec-three">
+				<ul class="nav">
+					<li>
+						<a href="#">首页</a>
+					</li>
+					<li>
+						<a href="#">新近单品</a>
+					</li>
+					<li>
+						<a href="#">全球购</a>
+					</li>
+					<li>
+						<a href="#">女士</a>
+					</li>
+					<li>
+						<a href="#">男仕</a>
+					</li>
+					<li>
+						<a href="#">童装</a>
+					</li>
+					<li>
+						<a href="#">腕表</a>
+					</li>
+					<li>
+						<a href="#">品牌</a>
+					</li>
+					<li>
+						<a href="#">特惠区</a>
+					</li>
+					<li>
+						<a href="#"><img src="img/mzine.jpg" /></a>
+					</li>
+				</ul>
+			
+				<!--菜单栏-->
+				<div id="menu">
+
+				</div>
+			</div>
 		</div>
 		<!--横幅-->
-		<div id="banner"></div>
+		<div class="banner" id="b02">
+
+			<ul>
+
+				<li><img src="01.jpg" alt="" width="640" height="480"></li>
+
+				<li><img src="02.jpg" alt="" width="640" height="480"></li>
+
+				<li><img src="03.jpg" alt="" width="640" height="480"></li>
+
+				<li><img src="04.jpg" alt="" width="640" height="480"></li>
+
+				<li><img src="05.jpg" alt="" width="640" height="480"></li>
+
+			</ul>
+
+		</div>
 		<!--主体内容-->
-		<!--尾部-->
+		<div id="main">
+			<div clss="M-section">
+				<div class="title">
+					<div class="mid-line"></div>
+					<p>
+						Special Offer
+						<br /> 特别推荐
+					</p>
+				</div>
+				<div class="shopNews">
+					<div class="N1">
+						<a href="#">
+							<img src="img/uploadimg/20170210/1486726390636346069.jpg" />
+						</a>
+						<a href="#">
+							<img src="img/uploadimg/20170210/1486726390636346069.jpg" />
+						</a>
+					</div>
+					<div class="N2">
+						<a href="#">
+							<img src="img/uploadimg/20170224/1487934325431209817.jpg" />
+						</a>
+					</div>
+					<div class="N3">
+						<a href="#">
+							<img src="img/uploadimg/20170224/14879343391528305215.jpg" />
+						</a>
+						<a href="#">
+							<img src="img/uploadimg/20170224/14879343391528305215.jpg" />
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div clss="M-section">
+				<div class="title">
+					<div class="mid-line"></div>
+					<p>
+						Special Offer
+						<br /> 特别推荐
+					</p>
+				</div>
+				<div class="shopNews">
+					<div class="N1">
+						<a href="#">
+							<img src="img/uploadimg/20170210/1486726390636346069.jpg" />
+						</a>
+						<a href="#">
+							<img src="img/uploadimg/20170210/1486726390636346069.jpg" />
+						</a>
+					</div>
+					<div class="N2">
+						<a href="#">
+							<img src="img/uploadimg/20170224/1487934325431209817.jpg" />
+						</a>
+					</div>
+					<div class="N3">
+						<a href="#">
+							<img src="img/uploadimg/20170224/14879343391528305215.jpg" />
+						</a>
+						<a href="#">
+							<img src="img/uploadimg/20170224/14879343391528305215.jpg" />
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div clss="M-section">
+				<div class="title">
+					<div class="mid-line"></div>
+					<p>
+						Special Offer
+						<br /> 特别推荐
+					</p>
+				</div>
+				<div class="shopNews">
+					<div class="N1">
+						<a href="#">
+							<img src="img/uploadimg/20170210/1486726390636346069.jpg" />
+						</a>
+						<a href="#">
+							<img src="img/uploadimg/20170210/1486726390636346069.jpg" />
+						</a>
+					</div>
+					<div class="N2">
+						<a href="#">
+							<img src="img/uploadimg/20170224/1487934325431209817.jpg" />
+						</a>
+					</div>
+					<div class="N3">
+						<a href="#">
+							<img src="img/uploadimg/20170224/14879343391528305215.jpg" />
+						</a>
+						<a href="#">
+							<img src="img/uploadimg/20170224/14879343391528305215.jpg" />
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div clss="M-section">
+				<div class="title">
+					<div class="mid-line"></div>
+					<p>
+						BEING SOLD
+						<br /> 正被选购
+					</p>
+				</div>
+				<div class="Carousel">
+					<ul>
+						<li>
+							<a href=""><img src="" alt="" /></a>
+						</li>
+						<li>
+							<a href=""><img src="" alt="" /></a>
+						</li>
+						<li>
+							<a href=""><img src="" alt="" /></a>
+						</li>
+						<li>
+							<a href=""><img src="" alt="" /></a>
+						</li>
+						<li>
+							<a href=""><img src="" alt="" /></a>
+						</li>
+						<li>
+							<a href=""><img src="" alt="" /></a>
+						</li>
+						<li>
+							<a href=""><img src="" alt="" /></a>
+						</li>
+						<li>
+							<a href=""><img src="" alt="" /></a>
+						</li>
+						<li>
+							<a href=""><img src="" alt="" /></a>
+						</li>
+						<li>
+							<a href=""><img src="" alt="" /></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		
+		</div>
+ 		<!--尾部-->
+
 	</body>
 
 </html>
