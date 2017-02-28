@@ -1,0 +1,73 @@
+[
+	
+	{
+		"UpNew":[
+			{
+				"today":"今日上新"
+			},
+			{
+				"yestoday":"昨日上新"
+			},
+			{
+				"week":"本周上新"
+			}
+		]
+	},
+	
+	{
+		"groupNmae":"男仕 Man",
+		"typeHref":"http://www.meici.com/new/0-0-0-0-0-120-1-0-20.html",
+		"type":[
+			{
+				"typeHref":"http://www.meici.com/new/8-0-0-0-0-120-1-0-20.html",
+				"typeName":"包袋 Bags"
+			},
+			{
+				"typeHref":"http://www.meici.com/new/8-0-0-0-0-120-1-0-20.html",
+				"typeName":"配饰Accessories"
+			},
+			{
+				"typeHref":"http://www.meici.com/new/8-0-0-0-0-120-1-0-20.html",
+				"typeName":"鞋履 Shoes"
+			},
+			{
+				"typeHref":"http://www.meici.com/new/8-0-0-0-0-120-1-0-20.html",
+				"typeName":"服装 Clothes"
+			}
+			
+		]
+	},
+	{
+		"groupNmae":"女士 Woman",
+		"typeHref":"http://www.meici.com/new/0-0-0-0-0-120-1-0-20.html",
+		"type":[
+			{
+				"typeHref":"http://www.meici.com/new/8-0-0-0-0-120-1-0-20.html",
+				"typeName":"包袋 Bags"
+			},
+			{
+				"typeHref":"http://www.meici.com/new/8-0-0-0-0-120-1-0-20.html",
+				"typeName":"配饰Accessories"
+			},
+			{
+				"typeHref":"http://www.meici.com/new/8-0-0-0-0-120-1-0-20.html",
+				"typeName":"鞋履 Shoes"
+			},
+			{
+				"typeHref":"http://www.meici.com/new/8-0-0-0-0-120-1-0-20.html",
+				"typeName":"服装 Clothes"
+			}
+			
+		]
+	},
+	{
+		"groupNmae":"今日推荐单品",
+		"typeHref":"http://www.meici.com/new/0-0-0-0-0-120-1-0-20.html",
+		"type":[
+			{
+				
+			}
+		]
+	}
+	
+]

@@ -162,7 +162,8 @@ img{
 	height:24px;
 	background: url(../img/searchBtn.gif) no-repeat;
 }
-/*模块三(菜单)*/
+/*模块三(導航菜单)*/
+/*導航部分*/
 #header .nav{
 	width:960px;
 	height:33px;
@@ -180,4 +181,38 @@ img{
 	width:96px;
 	height:33px;
 	display:block;
+}
+#header .nav .new{
+	position:relative;
+}
+#header .nav .new img{
+	position:absolute;
+	right:1px;
+	top:1px;
+}
+/*菜單部分*/
+#header .menu{
+	width:960px;
+	height:270px;
+	margin:0 auto;
+	border:1px solid lightgray;
+	border-top:0;
+}
+#header .menu .menu-con{
+	float:left;
+	padding:15px;
+}
+#header .menu .menu-con dt a{
+	color:#8e0c3a;
+	font-weight:bold;
+	padding-bottom:5px;
+	font-size:14px;
+}
+#header .menu .menu-con dd a{
+	color:gray;
+	font-size:12px;
+}
+#header .menu .menu-con .advise a{
+	float:left;
+	width:100px;
 }
