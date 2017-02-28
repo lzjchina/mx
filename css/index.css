@@ -1,53 +1,78 @@
 /*横幅*/
-#b02{
-	width:960px;
-	margin:10px auto;
-	
+
+#b01 {
+	width: 960px;
+	margin: 10px auto;
 }
+
+.banner {
+	position: relative;
+	overflow: auto;
+	text-align: center;
+}
+
+.banner li {
+	list-style: none;
+}
+
+.banner ul li {
+	float: left;
+}
+
+
 /*主体内容*/
-#main{
-	width:960px;
-	margin:0 auto;
+
+#main {
+	width: 960px;
+	margin: 0 auto;
 }
-#main .title{
-	height:50px;
+
+#main .title {
+	height: 50px;
 }
-#main .title .mid-line{
-	width:960px;
-	border-top:1px solid gray;
-	margin-top:24px;
+
+#main .title .mid-line {
+	width: 960px;
+	border-top: 1px solid gray;
+	margin-top: 24px;
 	position: absolute;
 	z-index: 1;
 }
-#main .title p{
-	width:260px;
-	margin:0 auto;
-	text-align:center;
-	font-size:14px;
-	font-family:"微软雅黑";
-	position:relative;
-	z-index:2;
-	background:white;
+
+#main .title p {
+	width: 260px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	position: relative;
+	z-index: 2;
+	background: white;
 }
 
-#main .shopNews{
-	overflow:hidden ;
+#main .shopNews {
+	overflow: hidden;
 }
-#main .shopNews a{
+
+#main .shopNews a {
 	display: block;
 }
-#main .N1,#main .N2,#main .N3{
-	float:left;
-}
-#main .N1 a img,#main .N3 a img{
-	width:312px;
-	height:190px;
-	margin:0 8px 6px 0;
-}
-#main .N2 a img{
-	width:312px;
-	height:386px;
-	margin:0 8px 6px 0;
+
+#main .N1,
+#main .N2,
+#main .N3 {
+	float: left;
 }
 
+#main .N1 a img,
+#main .N3 a img {
+	width: 312px;
+	height: 190px;
+	margin: 0 8px 6px 0;
+}
 
+#main .N2 a img {
+	width: 312px;
+	height: 386px;
+	margin: 0 8px 6px 0;
+}
