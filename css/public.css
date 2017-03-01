@@ -163,12 +163,18 @@ img{
 	background: url(../img/searchBtn.gif) no-repeat;
 }
 /*模块三(導航菜单)*/
+#header .h-sec-three{
+	width:960px;
+	margin:0 auto;
+	position:relative;
+}
 /*導航部分*/
 #header .nav{
 	width:960px;
 	height:33px;
 	margin:0 auto;
 	border-bottom:1px solid black;
+	
 }
 #header .nav li{
 	float:left;
@@ -197,6 +203,12 @@ img{
 	margin:0 auto;
 	border:1px solid lightgray;
 	border-top:0;
+	display: none;
+	position:absolute;
+	left:0;
+	top:33px;
+	background:white;
+	z-index:20;
 }
 #header .menu .menu-con{
 	float:left;
@@ -215,4 +227,194 @@ img{
 #header .menu .menu-con .advise a{
 	float:left;
 	width:100px;
+}
+/*尾部*/
+#footer{
+	width:960px;
+	margin:0 auto;
+	margin-top:20px;
+
+}
+/*帮助*/
+#footer .contact{
+	height:110px;
+	padding-top:30px ;
+	border-top:1px solid gray;
+}
+#footer .contact ul li{
+	float:left;
+	height:87px;
+	padding-bottom:10px; ;
+}
+#footer .contact ul .help{
+	border-right:1px solid gray;
+}
+#footer .contact ul .help dl{
+	float:left;
+	width:95px;
+	text-align:left;
+	font-size:14px;
+}
+#footer .contact ul .help dl dt{
+	font-weight:bold;
+	margin:15px 0;
+	color:#666;
+}
+#footer .contact ul .help dl a{
+	color:gray;
+}
+#footer .phone{
+	width:240px;
+	text-align:center;
+	color:#666;
+	border-right:1px solid gray;
+}
+#footer .phone p{
+	font-size:14px;
+	font-weight:bold;
+}
+#footer .phone b{
+	font-size:20px;
+	font-weight:normal;
+}
+#footer .service{
+	width:140px;
+	text-align: center;
+	font-size:14px;
+	font-weight: bold;
+	color:#666;
+	border-right: 1px solid gray;
+}
+#footer .service dl{
+	margin-top:16px;
+}
+#footer .service dd{
+	display: inline-block;
+	margin:10px 0;
+}
+#footer .service .f-QQ{
+	width:20px;
+	height: 23px;
+	float:left;
+	background:url(../img/indexNew/footico.gif) no-repeat left top;
+	margin-right:10px;
+	
+}
+#footer .service .f-tq{
+	width:20px;
+	height: 23px;
+	float:left;
+	background:url(../img/indexNew/footico.gif) no-repeat -20px top;
+}
+#footer .ewm{
+	padding-left:12px;
+}
+#footer .ewm dl{
+	float:left;
+	margin-right:12px;
+	font-size:14px;
+	color:#666;
+	text-align:center;
+}
+/*尾部导航*/
+#footer .f-nav{
+	margin-bottom:20px;
+    background:#eee;
+}
+#footer .f-nav ul{
+	overflow:hidden;
+	width:810px;
+	margin:0 auto;
+}
+#footer .f-nav li{
+	float:left;
+}
+#footer .f-nav  li a{
+	float:left;
+	width:90px;
+	height: 20px;
+	text-align:center;
+	line-height:20px;
+	color:#7A7A7A;
+	font-size:12px;
+}
+#footer .f-nav  li a:hover{
+	color:white;
+	background:gray;
+}
+/*友情链接*/
+#footer .f-bottom .friends ul{
+	width:480px;
+	margin:0 auto;
+}
+#footer .f-bottom .friends li{
+	float:left;
+}
+#footer .f-bottom .friends li a{
+	float:left;
+	margin-right:10px;
+}
+#footer .fre-a{
+	width:22px;
+	height:22px;
+	background:url(../img/foot_pic_s.jpg) no-repeat left -110px;
+}
+#footer .fre-a:hover{
+	background-position: 0 0;
+}
+
+
+#footer .fre-b{
+	width:88px;
+	height:16px;
+	background:url(../img/foot_pic_s.jpg) no-repeat -6px -157px;
+	
+}
+#footer .fre-b:hover{
+	background-position: -6px -47px;
+}
+
+
+#footer .fre-c{
+	width:50px;
+	height:13px;
+	background:url(../img/foot_pic_s.jpg) no-repeat -12px -138px;
+}
+#footer .fre-c:hover{
+	background-position: -12px -28px;
+}
+
+
+#footer .fre-d{
+	width:65px;
+	height:22px;
+	background:url(../img/foot_pic_s.jpg) no-repeat -186px -180px;
+}
+#footer .fre-d:hover{
+	background-position: -186px -71px;
+}
+
+
+#footer .fre-e{
+	width:64px;
+	height:16px;
+	background:url(../img/foot_pic_s.jpg) no-repeat -70px -112px;
+}
+#footer .fre-e:hover{
+	background-position: -70px -3px;
+}
+
+
+#footer .fre-f{
+	width:84px;
+	height:22px;
+	background:url(../img/foot_pic_s.jpg) no-repeat -5px -178px;
+}
+#footer .fre-f:hover{
+	background-position: -5px -70px;
+}
+
+/*copyright*/
+#footer .Copyright p{
+	text-align:center;
 }

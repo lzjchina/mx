@@ -18,7 +18,12 @@
 .banner ul li {
 	float: left;
 }
+#b01 .arrow { position: absolute; top: 200px;}
 
+#b01 #al { left: 15px;
+}
+
+#b01 #ar { right: 15px;}
 
 /*主体内容*/
 
@@ -26,7 +31,7 @@
 	width: 960px;
 	margin: 0 auto;
 }
-
+/*标题*/
 #main .title {
 	height: 50px;
 }
@@ -75,4 +80,120 @@
 	width: 312px;
 	height: 386px;
 	margin: 0 8px 6px 0;
+}
+#gundong{
+	width:960px;
+	height: 260px;
+	position:relative;
+	overflow:hidden;
+}
+#gundong ul{
+	width:3200px;
+	height:260px;
+	position:absolute;
+	left:0;
+	top:0;
+	overflow:hidden;
+}
+#gundong ul li{
+	width:160px;
+	float:left;
+}
+#gundong img{
+	display:inline-block;
+	
+}
+#gundong .g-left{
+	width:20px;
+	height:25px;
+	display: block;
+	background:url(../img/img-last.gif) no-repeat left center;
+	z-index: 10;
+	position:absolute;
+	left:5px;
+	top:125px;
+}
+#gundong .g-right{
+	width:20px;
+	height:25px;
+	display: block;
+	background:url(../img/img-next.gif) no-repeat right center;
+	z-index: 10;
+	position:absolute;
+	right:5px;
+	top:125px;
+}
+/*时尚专题推荐*/
+#main .M1,#main .M2,#main .M3{
+	width:315px;
+	height:245px;
+	margin-right:5px;
+	float:left;
+	position:relative;
+}
+#main .M1 p,#main .M2 p,#main .M3 p{
+	width:100%;
+	height:35px;
+	color:#000;
+	padding-left:10px;
+	position:absolute;
+	left:0;
+	bottom:20px;
+	background-color: rgba(255,255,255,0.8);
+	line-height:35px;
+}
+#main .M1 img,#main .M2 img,#main .M3 img{
+	width:315px;
+	height:245px;
+}
+/*更多体验*/
+#main .way1{
+	width:316px;
+	float:left;
+	margin-right:4px;
+}
+#main .way2{
+	width:316px;
+	float:left;
+	margin-right:4px;
+}
+#main .way2 form{
+	width:316px;
+	height:27px;
+	text-align: center;
+}
+#main .way2 form div{
+	display:inline-block;
+	width:124px;
+	height:27px;
+	border:1px solid gray;
+}
+#main .way2 form div input{
+	width:104px;
+	height: 25px;
+	border:0;
+	border:none;
+	float:left;
+}
+#main .way2 form div i{
+	float:left;
+	width:20px;
+	height:14px;
+	margin-top:5px;
+	background:url(../img/indexNew/footico.gif) right bottom;
+}
+#main .way2 .nowTake{
+	width:70px;
+	height:27px;
+	background:#5a5a5a;
+	color:#fff;
+	border:0;
+	border:none;
+	position:relative;
+	top:-8px;
+}
+#main .way3{
+	width:316px;
+	float:left;
+	margin-right:4px;
 }
