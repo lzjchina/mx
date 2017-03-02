@@ -1,4 +1,4 @@
-html,body,ul,li,dl,dd,dt{
+html,body,ul,li,dl,dd,dt,form{
 	padding:0;
 	margin:0;
 }
@@ -15,7 +15,96 @@ img{
 	display:block;
 	border:0;
 }
-/********************头部**********************/
+/*滚动一定距离显示搜索框*/
+#top-search{
+	width:100%;
+	display: none;
+	position:absolute;
+	left:0;
+	top:0;
+	background: white;
+	z-index:20;
+}
+#top-search ul{
+	width:960px;
+	margin:15px auto;
+	overflow:hidden;
+	position:relative;
+}
+#top-search ul li{
+	float:left;
+}
+#top-search .t-search{
+	padding:0 20px 0 40px;
+}
+#top-search .t-search form{
+	display: block; 
+	width:600px;
+	height:35px;
+	border:2px solid darkred;
+}#top-search .t-search form input{
+	float:right;
+}#top-search .t-text{
+	width:565px;
+	height:33px;
+	border:0;
+}
+#top-search .t-button{
+	width:30px;
+	height:30px;
+	background:url(../img/searchBtn2.gif) no-repeat center;
+	border:0;
+}
+
+#top-search .t-menu{
+	line-height:35px;
+}
+#top-search .t-menu a{
+	color:darkred;
+	font-size:12px;
+	line-height:15px;
+	display:inline-block;
+}
+#top-search .t-menu span{
+	position:relative;
+	left:5px;
+	bottom:3apx;
+}
+#top-search .rap{
+	width:960px;
+	margin:0 auto;
+	position:relative;
+}
+#top-search .top-menu-con{
+	width:960px;
+	border:1px solid gray;
+	background:white;
+	padding:15px;
+	position:absolute;
+	left:0;
+	top:35px;
+	z-index: 999999;
+	display: none;
+	border-top:none;
+}
+#top-search .top-menu-con dl{
+	margin-right: 20px;
+	float:left;
+	
+}
+#top-search .top-menu-con dl dt a{
+	color:#8e0c3a;
+	font-weight:bold;
+	font-size:14px;
+}
+#top-search .top-menu-con dl dd a{
+	color:gray;
+	font-size:14px;
+}
+#top-search .top-menu-con dl dd a:hover{
+	color:red;
+}
+/********************头部*********************/
 #header{
 	width:100%;
 }
@@ -263,6 +352,9 @@ img{
 #footer .contact ul .help dl a{
 	color:gray;
 }
+#footer .contact ul .help dl a:hover{
+	color:brown;
+}
 #footer .phone{
 	width:240px;
 	text-align:center;
@@ -346,6 +438,7 @@ img{
 #footer .f-bottom .friends ul{
 	width:480px;
 	margin:0 auto;
+	overflow:hidden;
 }
 #footer .f-bottom .friends li{
 	float:left;
@@ -417,4 +510,19 @@ img{
 /*copyright*/
 #footer .Copyright p{
 	text-align:center;
+	font-size:12px;
+	color:#777;
+}
+#footer .Copyright p a{
+	color:#777;
+}
+#footer .Copyright p a:hover{
+	color:brown;
+}
+#footer .safe p {
+	text-align:center;
+}
+#footer .safe p img{
+	display:inline-block;
+	
 }

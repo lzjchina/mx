@@ -5,6 +5,10 @@ $(function() {
 		$('.menu').html('');
 		$(this).css('background', '#8e0c3a').css('color', 'white').siblings().css('background', '').css('color', 'black');
 
+
+
+
+
 		//菜单ajax
 		$.ajax({
 			url: "json/menu.json",
