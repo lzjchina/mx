@@ -1,0 +1,193 @@
+#main{
+	width:960px;
+	margin:0 auto;
+}
+#main .section-one{
+	overflow:hidden;
+}
+#main .leftImg{
+	float:left;
+	overflow:hidden;
+}
+#main .leftImg .smallImg{
+	float:left;
+}
+#main .leftImg .bigImg{
+	float:right;
+	width:380px;
+	height:460px;
+	overflow: hidden;
+	margin-left:30px;
+}
+#main .leftImg .bigImg img{
+	width:380px;
+	height: 460px;
+}
+#main .buy{
+	float:right;
+}
+#main .buy h3 a{
+	font-size:16px;
+	color:black;
+}
+#main .buy h3 span{
+	font-weight:normal;
+	font-size:14px;
+	color:gray;
+}
+#main .buy .advisePrice{
+	font-size:12px;
+	text-decoration:line-through;
+	color:lightgray;
+	margin:20px 0;
+}
+#main .buy .activePrice{
+	font-size:12px;
+	color:brown;
+	margin:20px 0;
+}
+#main .buy .arriveTime{
+	font-size:12px;
+	color:gray;
+	line-height:24px;
+}
+#main .buy .buyNow,#main .buy .addShopCar{
+	display: inline-block;
+}
+#main .buy .share{
+	border-top:1px solid lightgray;
+	border-bottom:1px solid lightgray;
+	overflow:hidden;
+	margin:20px 0;
+}
+#main .buy .share .shareLogo{
+	float:left;
+}
+#main .buy .share .shareLogo span,#main .buy .share .shareLogo a{
+	float:left;
+	margin:2px;
+	font-size:12px;
+}
+#main .buy .share .shareLogo i{
+	display: block;
+	width:16px;
+	height:16px;
+	background:url(../img/details/icons_0_16.png) no-repeat left -104px;
+}
+
+#main .buy .share .shareLogo em{
+	display: block;
+	width:16px;
+	height:16px;
+	background:url(../img/details/icons_0_16.png) no-repeat 0 -1614px;
+}
+#main .buy .share .shareLogo a span{
+	display: block;
+	width:16px;
+	height:16px;
+	background:url(../img/details/icons_0_16.png) no-repeat 0 -468px;
+}
+
+
+
+
+#main .buy .share .collect{
+	float:right;
+}
+#main .buy .share .collect a{
+	width:16px;
+	height:16px;
+	display:inline-block;
+	background:url(../img/details/coll.gif) no-repeat left -24px;
+}
+
+
+/*model*/
+
+#main .model{
+	width:960px;
+	margin:20px auto 0;
+}
+#main .model .mo-title{
+	padding-top:35px;
+	padding-left:60px;
+	border-top:1px solid gray;
+	background:url(../img/details/m.png) no-repeat left bottom;
+}
+#main .model .mo-title p{
+	font-weight:normal;
+	font-size:14px;
+}
+#main  .shops{
+	overflow:hidden;
+}
+#main  .shops a{
+	float:left;
+	font-size:12px;
+	color:gray;
+	text-align:center;
+	margin:10px;
+}
+#main  .shops dd:hover{
+	color:darkred;
+}
+#main .model .word{
+	padding-bottom:30px;
+	border-bottom:1px dashed lightgray;
+}
+#main .model .word p{
+	font-size:12px;
+	color:gray;
+	line-height:24px;
+}
+#main .model
+/*滑块（滚动后仍显示）*/
+#main .Tab{
+	overflow:hidden;
+}
+#main .Tab ul{
+	float:left;
+	overflow:hidden;
+}
+#main .Tab ul li{
+	float:left;
+	width:140px;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+	background:#e6e6e6;
+	margin-right:5px;
+}
+#main .Tab ul li a{
+	color:gray;
+	font-size:14px;
+}
+#main .Tab .Tab-buy{
+	float:right;
+	
+}
+#main .Tab .Tab-buy a{
+	display: inline-block;
+	
+} 
+#main .Tab .Tab-buy .lijimai{
+	width:120px;
+	height:40px;
+	background:url(../img/details/pic_buy_now02.gif) no-repeat left top;
+}
+#main .Tab .Tab-buy .jiaru{
+	width:120px;
+	height:40px;
+	background:url(../img/details/pic_buy_now02.gif) no-repeat left -40px;
+}
+/*猜你喜欢*/
+#main .guess{
+	width:960px;
+	margin:0 auto;
+	text-align:center;
+}
+#main .guess p{
+	font-size:12px;
+	text-decoration: overline;
+	margin-top:5px;
+}
