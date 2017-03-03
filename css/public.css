@@ -1,4 +1,4 @@
-html,body,ul,li,dl,dd,dt,form,p,h1,h2,h3,h4,h5{
+html,body,ul,li,dl,dd,dt,form,p,h1,h2,h3,h4,h5,div{
 	padding:0;
 	margin:0;
 }
@@ -325,6 +325,19 @@ img{
 
 }
 /*帮助*/
+#footer .footer-top{
+	border-top:1px solid gray;
+	overflow:hidden;
+}
+#footer .footer-top a,#footer .footer-top span{
+	float:left;
+	font-size:12px;
+	color:gray ;
+	line-height:40px;
+}
+
+
+
 #footer .contact{
 	height:110px;
 	padding-top:30px ;
@@ -360,6 +373,7 @@ img{
 	text-align:center;
 	color:#666;
 	border-right:1px solid gray;
+	padding-top:20px;
 }
 #footer .phone p{
 	font-size:14px;
@@ -376,6 +390,23 @@ img{
 	font-weight: bold;
 	color:#666;
 	border-right: 1px solid gray;
+}
+#footer .service .f-write{
+	width:100px;
+	height:20px;
+	line-height:20px;
+	color:gray;
+}
+#footer .service .f-DY{
+		width:40px;
+		height:25px;
+		line-height:25px;
+		text-align:center;
+		background:#5a5a5a;
+		color:white;
+		font-size:12px;
+		border:0;
+		
 }
 #footer .service dl{
 	margin-top:16px;
@@ -412,6 +443,7 @@ img{
 #footer .f-nav{
 	margin-bottom:20px;
     background:#eee;
+  
 }
 #footer .f-nav ul{
 	overflow:hidden;
@@ -420,6 +452,7 @@ img{
 }
 #footer .f-nav li{
 	float:left;
+	
 }
 #footer .f-nav  li a{
 	float:left;
@@ -429,6 +462,7 @@ img{
 	line-height:20px;
 	color:#7A7A7A;
 	font-size:12px;
+	
 }
 #footer .f-nav  li a:hover{
 	color:white;

@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/public.css" />
+		<link rel="stylesheet" href="../css/register.css" />
+		<script src="lib/jquery/jquery-1.11.1.min.js"></script>
+		<script src="js/public.js"></script>
+		
+	</head>
+	<body>
+		
+		<!--头部(公共)-->
+		<div id="header">
+			<!--模块一(带有购物车部分)-->
+			<div class="h-sec-one">
+				<div class="sec-one-con">
+					<ul class="login-reg">
+						<li>
+							<a href="#">登录</a>
+						</li>
+						<li><span>|</span></li>
+						<li>
+							<a href="#">注册</a>
+						</li>
+						<li>
+							<a href="#" title="订单查询">订单查询</a>
+						</li>
+
+					</ul>
+
+					<ul class="link-info">
+						<li style="margin-right:23px;">客服热线：4000-250- 630</li>
+						<li class="aboutus">
+							<em></em>
+							<span>关注我们</span>
+							<div class="weixin-weibo">
+								<a href="#">
+									<dl>
+										<dt class="weibo"></dt>
+										<dd>新浪微博</dd>
+									</dl>
+								</a>
+								<a href="#">
+									<dl>
+										<dt class="weixin"></dt>
+										<dd>美西微信</dd>
+									</dl>
+								</a>
+							</div>
+						</li>
+						<!--购物车-->
+						<li class="shop-car">
+							<a href="#">
+
+								<span>购物袋(<em style="color:red">0</em>)</span>
+								<i>|</i>
+								<b><img src="../img/pic_arrow_u_cur.gif" /> </b>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--模块二(带有搜索栏部分)-->
+			<div class="h-sec-two">
+				<div class="mxappBox">
+					<a href="#"><img src="../img/ewm_indexTop.png" /> </a>
+					<span> <img src="../img/ewm_txt.png" /></span>
+				</div>
+				<div class="mxlogo">
+					<a href="#"><img src="../img/meicilogo.png" /></a>
+				</div>
+				<div class="search">
+					<input type="text" placeholder="请输入您的关键字" class="sear-text" />
+					<input type="button" class="btser" />
+				</div>
+			</div>
+			<!--模块三(导航)-->
+			<div class="h-sec-three">
+				<ul class="nav">
+					<li>
+						<a href="#">首页</a>
+					</li>
+					<li>
+						<a href="#">新近单品</a>
+					</li>
+					<li>
+						<a href="#" class="new">全球购
+							<img src="../img/new.png" />
+						</a>
+					</li>
+					<li>
+						<a href="#">女士</a>
+					</li>
+					<li>
+						<a href="#">男仕</a>
+					</li>
+					<li>
+						<a href="#">童装</a>
+					</li>
+					<li>
+						<a href="#">腕表</a>
+					</li>
+					<li>
+						<a href="#">品牌</a>
+					</li>
+					<li>
+						<a href="#">特惠区</a>
+					</li>
+					<li>
+						<a href="#"><img src="../img/mzine.jpg" /></a>
+					</li>
+				</ul>
+
+				<!--菜单栏-->
+				<div class="menu">
+					<!--<dl class="menu-con">
+						<dt><a href="#">今日上新</a></dt>
+						<dt><a href="#">昨日上新</a></dt>
+						<dt><a href="#">本周上新</a></dt>
+					</dl>
+
+					<dl class="menu-con">
+						<dt><a href="#">男仕 Man</a></dt>
+						<dd>
+							<a href="#">包袋 Bags</a>
+						</dd>
+						<dd>
+							<a href="#">配饰Accessories</a>
+						</dd>
+						<dd>
+							<a href="#">鞋履 Shoes</a>
+						</dd>
+						<dd>
+							<a href="#">服装 Clothes</a>
+						</dd>
+					</dl>
+
+					<dl class="menu-con">
+						<dt><a href="#">女士 Woman</a></dt>
+						<dd>
+							<a href="#">包袋 Bags</a>
+						</dd>
+						<dd>
+							<a href="#">配饰 Accessories</a>
+						</dd>
+						<dd>
+							<a href="#">鞋履 Shoes</a>
+						</dd>
+						<dd>
+							<a href="#">服装 Clothes</a>
+						</dd>
+
+					</dl>
+
+					<dl class="menu-con">
+						<dt><a href="#">今日推荐单品</a></dt>
+						<dd class="advise">
+							<a href="#">
+								<img src="img/uploadimg/20161230/1483105178819585889.jpg" />
+								<p>Balmain 巴尔曼</p>
+								<p>全棉 女士 圆领长袖卫衣</p>
+							</a>
+							<a href="#">
+								<img src="img/uploadimg/20161230/1483105178819585889.jpg" />
+								<p>Balmain 巴尔曼</p>
+								<p>全棉 女士 圆领长袖卫衣</p>
+							</a>
+							<a href="#">
+								<img src="img/uploadimg/20161230/1483105178819585889.jpg" />
+								<p>Balmain 巴尔曼</p>
+								<p>全棉 女士 圆领长袖卫衣</p>
+							</a>
+						</dd>
+					</dl>-->
+				</div>
+			</div>
+		</div>
+			
+			<!--login验证-->
+			<div id="register">
+				<div class="register-con">
+					<p>
+					<img src="../img/login_bg.png" /> 
+				</p>
+				<p style="text-align: right;color:darkred;font-size:16px;">手机验证完成即送888元优惠券</p>
+				<form>
+					<ul>
+						<li  >
+							<span>手机/邮箱：</span>
+							<input type="text" class="text" placeholder="手机注册更享好礼"/>
+						</li>
+						<li  >
+							<span>密　 　码：</span>
+						<input type="text" class="text"  />
+						</li>
+						<li  >
+							<span>确认 密码：</span>
+						<input type="text" class="text"  />
+						</li>
+						<li class="dingyue " >
+							<label >订阅美西时尚资讯</label>
+							
+						</li>
+						<li>
+							<input type="submit" value="注册" class="zhuce"/>
+						</li>
+						<li>已注册？<a href="#" style="color:gray">登录</a></li>
+	
+					<li><p></p></li>
+						
+					</ul>
+				
+				</form>
+				</div>
+				
+			</div>	
+
+
+<!--尾部-->
+			<div id="footer">
+				
+
+				<div class="f-nav">
+					<ul>
+						<li>
+							<a href="#">首页</a>
+						</li>
+						<li>
+							<a href="#">关于美西</a>
+						</li>
+						<li>
+							<a href="#">媒体报道</a>
+						</li>
+						<li>
+							<a href="#">正品保证</a>
+						</li>
+						<li>
+							<a href="#">业务合作</a>
+						</li>
+						<li>
+							<a href="#">隐私声明</a>
+						</li>
+						<li>
+							<a href="#">加入美西</a>
+						</li>
+						<li>
+							<a href="#">网站地图</a>
+						</li>
+						<li>
+							<a href="#">联系我们</a>
+						</li>
+
+					</ul>
+				</div>
+
+				<div class="f-bottom">
+					<div class="friends">
+						<ul>
+							<li>
+								<a href="#" class="fre-a"></a>
+							</li>
+							<li>
+								<a href="#" class="fre-b" style="margin-right:30px;"></a>
+							</li>
+							<li>
+								<a href="#" class="fre-c"></a>
+							</li>
+							<li>
+								<a href="#" class="fre-d"></a>
+							</li>
+							<li>
+								<a href="#" class="fre-e"></a>
+							</li>
+							<li>
+								<a href="#" class="fre-f"></a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="Copyright">
+						<p>Copyright &copy; 2008-2016 美西时尚-
+							<a href="#">高端时尚生活电商</a>
+						</p>
+						<p>
+							<a href="#">沪ICP备09001221号</a>
+						</p>
+					</div>
+
+					<div class="safe">
+						<p>
+							<a href="#"><img src="../img/hy_83x30.png" /> </a>
+							<a href="#"><img src="../img/ssgs.gif" /> </a>
+						</p>
+					</div>
+				</div>
+			</div>
+		
+	</body>
+</html>

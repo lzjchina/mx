@@ -140,14 +140,22 @@
 	color:gray;
 	line-height:24px;
 }
-#main .model
+
 /*滑块（滚动后仍显示）*/
+.clearfix:after{
+	content:"..";
+	overflow: hidden;
+	visibility: hidden;
+	clear:both;
+	display:block;
+	height:0;
+}
 #main .Tab{
 	overflow:hidden;
 }
 #main .Tab ul{
 	float:left;
-	overflow:hidden;
+	
 }
 #main .Tab ul li{
 	float:left;

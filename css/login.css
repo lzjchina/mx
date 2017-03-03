@@ -1,0 +1,46 @@
+.clearfix:after{
+	content:"..";
+	overflow: hidden;
+	clear: both;
+	visibility: hidden;
+	display: block;
+	height: 0;
+}
+#login{
+	width:960px;
+	height:517px;
+	margin:0 auto;
+	background:url(../img/bg_main.jpg);
+	margin-top:20px;
+}
+#login .login-con{
+	width:352px;
+	font-size:14px;
+	color:gray;
+	
+}
+.text{
+	width:180px;
+	float:right;
+	
+}
+
+#login .login-con li{
+	margin:20px 0;
+	text-align: right;
+}
+#login .login-con .denglubt{
+	width:204px;
+	height:30px;
+	background:#8e0c3a;
+	line-height:30px;
+	text-align:center;
+	color:white;
+	border:0;
+	
+}
+#login .login-con .zdwjmm a{
+	color:gray;
+	margin-left:30px;
+	
+}
