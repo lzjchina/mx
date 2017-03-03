@@ -1,0 +1,47 @@
+#find2-main{
+	width:960px;
+	margin:20px auto  60px;
+}
+#find2-main .title{
+	margin-bottom:20px;
+}
+#find2-main ul li{
+	text-align:center;
+	margin:20px 0;
+}
+
+#find2-main ul li img{
+	margin:0 auto;
+}
+
+#find2-main ul li p{
+	color:gray;
+	font-size:12px;
+}
+#find2-main ul li p span{
+	color:darkred;
+}
+#find2-main ul li form div{
+	margin:10px 0;
+}
+#find2-main ul li form div span{
+	text-align:right;
+	font-size:14px;
+	color:gray;
+	font-weight:bold;
+	
+}
+
+#find2-main ul li form div a{
+	font-size:12px;
+	text-decoration: underline;
+	color:darkred;
+	
+}
+#find2-main .find2-next{
+	width:128px;
+	height:38px;
+	background:url(../img/pw_bt_one.gif) no-repeat ;
+	border:0;
+	
+}

@@ -1,0 +1,110 @@
+#dingdanchaxun-main{
+	width:960px;
+	margin:20px auto  60px;
+}
+/*标题*/
+#dingdanchaxun-main .title{
+	padding-left:40px;
+	background:url(../img/pic_titles.gif) no-repeat left center;
+}
+#dingdanchaxun-main .title p{
+	border-bottom:1px solid black ;
+}
+/*chaxunkuang*/		
+#dingdanchaxun-main ul li{
+	
+	margin:20px 0;
+}
+#dingdanchaxun-main  .left-chacun{
+	border-right:1px solid gray;
+	display: inline-block;
+	width:480px;
+	
+}
+/*提示*/
+#dingdanchaxun-main  .tishi {
+	color:darkred;
+	font-size:14px;
+}
+#dingdanchaxun-main form div{
+	width:400px;
+	height:26px;
+	margin:10px;
+}
+
+#dingdanchaxun-main form span,#login span{
+	width:100px;
+	height:26px;
+	display: inline-block;
+	text-align: right;
+	color:gray;
+	font-size:12px;
+}
+#dingdanchaxun-main  .srk{
+	width:260px;
+	height: 24px;;
+}
+/*chaxun按钮*/
+#dingdanchaxun-main .chaxun{
+	width:90px;
+	height:28px;
+	line-height:28px;
+	text-align:center;
+	color:white;
+	background:#5A5A5A;
+	border:0;
+}
+
+#dingdanchaxun-main .right-denglu{
+	float:right;
+}
+
+
+/*denglu*/
+.clearfix:after{
+	content:"..";
+	overflow: hidden;
+	clear: both;
+	visibility: hidden;
+	display: block;
+	height: 0;
+}
+#login{
+	width:960px;
+	height:517px;
+	margin:0 auto;
+	
+	margin-top:20px;
+}
+#login .login-con{
+	width:352px;
+	font-size:14px;
+	color:gray;
+	
+}
+
+
+#login .login-con li{
+	margin:20px 0;
+	width:480px;
+}
+#login .login-con .denglubt{
+	width:204px;
+	height:30px;
+	display: inline-block;
+	background:#8e0c3a;
+	line-height:30px;
+	text-align:center;
+	color:white;
+	border:0;
+	margin-left:100px;
+	
+}
+#login .login-con .zdwjmm{
+	padding-left:100px;
+}
+#login .login-con .zdwjmm a{
+	color:gray;
+	margin-left:30px;
+	
+}

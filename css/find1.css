@@ -2,3 +2,36 @@
 	width:960px;
 	margin:20px auto  60px;
 }
+#find1-main .title{
+	margin-bottom:20px;
+}
+#find1-main ul li{
+	text-align:center;
+	
+}
+#find1-main ul li img{
+	margin:0 auto;
+}
+#find1-main ul li form div{
+	margin:10px 0;
+}
+#find1-main ul li form div span{
+	text-align:right;
+	font-size:14px;
+	color:gray;
+	font-weight:bold;
+	
+}
+
+#find1-main ul li form div img{
+	display: inline-block;
+	height:21px;
+	
+}
+#find1-main .find1-next{
+	width:128px;
+	height:38px;
+	background:url(../img/pw_bt_one.gif) no-repeat ;
+	border:0;
+	
+}
