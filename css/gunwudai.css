@@ -1,0 +1,84 @@
+#gwd-main{
+	width:960px;
+	margin:0 auto;
+}
+#gwd-main .addSuccess{
+	margin:15px 0;
+	height:50px;
+	line-height: 50px;
+	background: #f4fff3;
+    border: 1px solid #8cbe7c;
+}
+#gwd-main .addSuccess i{
+	width:16px;
+	height:16px;
+	display:inline-block;
+	background: url(../img/tipico01.png) no-repeat left bottom;
+}
+
+#gwd-main .cart {
+	width:960px;
+}
+#gwd-main .cart table{
+	width:100%;
+	line-height: 100%;
+	
+}
+#gwd-main .cart  td{
+	border-bottom:1px solid gray;
+	padding:20px :;;
+}
+#gwd-main .cart table img{
+	display: inline-block;
+}
+#gwd-main .cart th{
+	background: #eee;
+    height: 40px;
+    line-height: 40px;
+    font-weight:normal;
+}
+#gwd-main .cart td{
+	text-align:center;
+	color:gray;
+	font-size:12px;
+}
+#gwd-main .cart td a{
+	color:gray;
+	font-size:12px;
+}
+#gwd-main .cart td a:hover{
+	color:darkred;
+}
+/*结算*/
+#gwd-main .jiesuan{
+	color:gray;
+	font-size:12px;
+	text-align:right;
+	padding:20px 0;
+}
+#gwd-main .jiesuan span{
+	color:darkred;
+	font-weight:bold;
+	font-size:18px;
+	margin:0 30px;
+}
+/*继续购物加现在结算图标*/
+#gwd-main .jxgw{
+	height:50px;
+	line-height:50px;
+	padding:20px 0;
+}
+#gwd-main .jxgw a{
+	color:gray;
+	font-size:12px;
+}
+#gwd-main .jxgw a:hover{
+	color:darkred;
+}
+#gwd-main .jxgw input{
+	width:158px;
+	height:48px;
+	float:right;
+	background:url(../img/cartbtn.gif) no-repeat;
+	border:0;
+}

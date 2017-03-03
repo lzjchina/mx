@@ -1,9 +1,310 @@
 <!DOCTYPE html>
+
 <html>
+
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/public.css" />
+		<link rel="stylesheet" type="text/css" href="../css/find1.css"/>
+		<link rel="stylesheet" href="../css/gunwudai.css" />
+		<script src="lib/jquery/jquery-1.11.1.min.js"></script>
+		<script src="js/public.js"></script>
+
 	</head>
+
 	<body>
+
+		<!--头部(公共)-->
+		<div id="header">
+			<!--模块一(带有购物车部分)-->
+			<div class="h-sec-one">
+				<div class="sec-one-con">
+					<ul class="login-reg">
+						<li>
+							<a href="#">登录</a>
+						</li>
+						<li><span>|</span></li>
+						<li>
+							<a href="#">注册</a>
+						</li>
+						<li>
+							<a href="#" title="订单查询">订单查询</a>
+						</li>
+
+					</ul>
+
+					<ul class="link-info">
+						<li class="aboutus" style="float:right;">
+							<em></em>
+							<span>关注我们</span>
+							<div class="weixin-weibo">
+								<a href="#">
+									<dl>
+										<dt class="weibo"></dt>
+										<dd>新浪微博</dd>
+									</dl>
+								</a>
+								<a href="#">
+									<dl>
+										<dt class="weixin"></dt>
+										<dd>美西微信</dd>
+									</dl>
+								</a>
+							</div>
+						</li>
+						<li style="margin-right:23px;float:right;">客服热线：4000-250- 630</li>
+						
+						
+					</ul>
+				</div>
+			</div>
+			
+			<!--模块二(带有搜索栏部分)-->
+			<div class="h-sec-two">
+				<div class="mxappBox">
+					<a href="#"><img src="../img/ewm_indexTop.png" /> </a>
+					<span> <img src="../img/ewm_txt.png" /></span>
+				</div>
+				<div class="mxlogo">
+					<a href="#"><img src="../img/meicilogo.png" /></a>
+				</div>
+				
+			</div>
+
+				
+			
+		</div>
+
+			
+		<!--主体-->
+		<div id="gwd-main">
+			<div class="weizhi">
+				<img src="../img/process01.gif" /> 
+			</div>
+			<div class="addSuccess">
+				<i></i>
+				<span>成功将 全棉 男仕 单西*46 加入购物袋。</span>
+			</div>
+			
+			<div class="cart">
+				<table cellspacing="0">
+					<tbody>
+						<tr>
+							<th>商品图片</th>
+							<th>商品名称</th>
+							<th>数量</th>
+							<th>单价</th>
+							<th>操作</th>
+							
+						</tr>
+						
+						<tr>
+							<td>
+								<a href="http://www.meici.com/product/detail/id/073239/saleid/70701.html"><img src="../img/s-073239-1.jpg" /> </a>
+							</td>
+							<td>
+								<a href="http://www.meici.com/product/detail/id/073239/saleid/70701.html">CANALI 康纳利 全棉 男仕 单西 
+尺码：46</a>
+							</td>
+							<td>1</td>
+							<td>￥15120.00</td>
+							<td>
+								<a href="#">移至收藏</a>
+								<br />
+								<a href="#">删除商品</a>
+							</td>
+							
+						</tr>
+						<tr>
+							<td>
+								<a href="http://www.meici.com/product/detail/id/073239/saleid/70701.html"><img src="../img/s-073239-1.jpg" /> </a>
+							</td>
+							<td>
+								<a href="http://www.meici.com/product/detail/id/073239/saleid/70701.html">CANALI 康纳利 全棉 男仕 单西 
+尺码：46</a>
+							</td>
+							<td>1</td>
+							<td>￥15120.00</td>
+							<td>
+								<a href="#">移至收藏</a>
+								<br />
+								<a href="#">删除商品</a>
+							</td>
+							
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		
+			<!--结算-->
+			<div class="jiesuan">
+				<p>总计（不含运费）：<span>￥42480.00
+</span></p>
+			</div>
+			
+			<!--继续购物加现在结算图标-->
+			<div class="jxgw">
+				<a href="http://www.meici.com/new">< 继续购物</a>
+				<input type="button" value="" />
+			</div>
+		</div>
+
+		<!--尾部-->
+		<div id="footer">
+			<!--帮助-->
+
+			<div class="contact">
+				<ul style="height:">
+					<li class="help">
+						<dl>
+							<dt>购物指南</dt>
+							<dd>
+								<a href="#">购物流程</a>
+							</dd>
+							<dd>
+								<a href="#">配送方式</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>支付方式</dt>
+							<dd>
+								<a href="#">如何付款</a>
+							</dd>
+							<dd>
+								<a href="#">发票制度</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>商品说明</dt>
+							<dd>
+								<a href="#">商品尺码</a>
+							</dd>
+							<dd>
+								<a href="#">商品包装</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>客服中心</dt>
+							<dd>
+								<a href="#">七天退换</a>
+							</dd>
+							<dd>
+								<a href="#">常见问题</a>
+							</dd>
+						</dl>
+					</li>
+
+					<li class="phone">
+						<p>订购热线</p>
+						<b>4000-250-630</b>
+					</li>
+
+					<li class="service">
+						<dl>
+							<dt>订阅美西时尚资讯</dt>
+							<dd>
+								<form>
+									<input type="text" placeholder="请填写你的E-mail" class="f-write" />
+									<input type="submit" value="订阅" class="f-DY" />
+								</form>
+
+							</dd>
+						</dl>
+					</li>
+
+					<li class="ewm">
+						<dl>
+							<dt>美丽时尚APP</dt>
+							<dd>
+								<a href><img src="../img/ewm_indexBot1.png" /> </a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>关注我们</dt>
+							<dd>
+								<a href="#"><img src="../img/ewm_wx.png" /> </a>
+							</dd>
+						</dl>
+					</li>
+				</ul>
+
+			</div>
+
+			<div class="f-nav">
+				<ul>
+					<li>
+						<a href="#">首页</a>
+					</li>
+					<li>
+						<a href="#">关于美西</a>
+					</li>
+					<li>
+						<a href="#">媒体报道</a>
+					</li>
+					<li>
+						<a href="#">正品保证</a>
+					</li>
+					<li>
+						<a href="#">业务合作</a>
+					</li>
+					<li>
+						<a href="#">隐私声明</a>
+					</li>
+					<li>
+						<a href="#">加入美西</a>
+					</li>
+					<li>
+						<a href="#">网站地图</a>
+					</li>
+					<li>
+						<a href="#">联系我们</a>
+					</li>
+
+				</ul>
+			</div>
+
+			<div class="f-bottom">
+				<div class="friends">
+					<ul>
+						<li>
+							<a href="#" class="fre-a"></a>
+						</li>
+						<li>
+							<a href="#" class="fre-b" style="margin-right:30px;"></a>
+						</li>
+						<li>
+							<a href="#" class="fre-c"></a>
+						</li>
+						<li>
+							<a href="#" class="fre-d"></a>
+						</li>
+						<li>
+							<a href="#" class="fre-e"></a>
+						</li>
+						<li>
+							<a href="#" class="fre-f"></a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="Copyright">
+					<p>Copyright &copy; 2008-2016 美西时尚-
+						<a href="#">高端时尚生活电商</a>
+					</p>
+					<p>
+						<a href="#">沪ICP备09001221号</a>
+					</p>
+				</div>
+
+				<div class="safe">
+					<p>
+						<a href="#"><img src="../img/hy_83x30.png" /> </a>
+						<a href="#"><img src="../img/ssgs.gif" /> </a>
+					</p>
+				</div>
+			</div>
+		</div>
 	</body>
+
 </html>
