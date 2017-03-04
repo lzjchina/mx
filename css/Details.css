@@ -140,7 +140,41 @@
 	color:gray;
 	line-height:24px;
 }
-
+.floatL{
+	float:left;
+}
+.floatR{
+	float:right;
+}
+.clearfix:after{
+	content:"..";
+	overflow: hidden;
+	clear:both;
+	height:0;
+	visibility: hidden;
+	display: block;
+}
+/*商品详情*/
+#spxq .spxx td{
+	border:1px solid gray;
+	
+}
+#spxq .story{
+	border-right:1px solid gray;
+	width:280px;
+}
+#spxq .chakangengduo{
+	width:625px;
+	font-size:14px;
+	line-height:50px;
+	color:gray;
+}
+#spxq .chakangengduo a{
+	float:right;
+	text-decoration:underline;
+	color:gray;
+	
+}
 /*滑块（滚动后仍显示）*/
 .clearfix:after{
 	content:"..";

@@ -11,7 +11,7 @@ $.ajax({
 			
 			//遍历组成员
 			$(_value.member).each(function(_num,_element){
-				console.log(_element);
+//				console.log(_element);
 				var dd=$('<dd></dd>').appendTo(dl);
 				var a2=$('<a></a>').prop('href',_element.memberHref).html(_element.memberName).appendTo(dd);
 				
@@ -29,13 +29,15 @@ $.ajax({
 		$('.t-menu ').mouseout(function(){
 			$('.top-menu-con').css('display','none');
 		});
-//		$('.t-menu').mouseover(function(){
-//			$(this).css('display','block');
-//			
-//		});
-//		$('.t-menu').mouseout(function(){
-//			$(this).css('display','none');
-//		});
+		$('.top-menu-con').mouseover(function(){
+			$(this).show();
+			
+			
+		});
+		$('.top-menu-con').mouseout(function(){
+			$(this).hide();
+			
+		});
 		
 	}
 });
@@ -45,10 +47,12 @@ $(document).scroll(function(){
 	var H = $(document).scrollTop();
 	var top=$('#top-search').css('top');
 	
-	console.log(top);
+//	console.log(top);
 	if(H>200){
 		$('#top-search').css('display','block').css('top',H);	
 		
+	}else{
+		$('#top-search').css('display','none');
 	}
 });
 

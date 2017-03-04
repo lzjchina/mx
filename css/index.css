@@ -32,11 +32,11 @@
 	margin: 0 auto;
 }
 /*标题*/
-#main .title {
+ .title {
 	height: 50px;
 }
 
-#main .title .mid-line {
+ .title .mid-line {
 	width: 960px;
 	border-top: 1px solid gray;
 	margin-top: 24px;
@@ -44,7 +44,7 @@
 	z-index: 1;
 }
 
-#main .title p {
+ .title p {
 	width: 260px;
 	margin: 0 auto;
 	text-align: center;
@@ -55,11 +55,11 @@
 	background: white;
 }
 
-#main .shopNews {
+ .shopNews {
 	overflow: hidden;
 }
 
-#main .shopNews a {
+ .shopNews a {
 	display: block;
 }
 
@@ -81,13 +81,13 @@
 	height: 386px;
 	margin: 0 8px 6px 0;
 }
-#gundong{
+.gundong{
 	width:960px;
 	height: 260px;
 	position:relative;
 	overflow:hidden;
 }
-#gundong ul{
+.gundong ul{
 	width:3200px;
 	height:260px;
 	position:absolute;
@@ -95,15 +95,15 @@
 	top:0;
 	overflow:hidden;
 }
-#gundong ul li{
+.gundong ul li{
 	width:160px;
 	float:left;
 }
-#gundong img{
+.gundong img{
 	display:inline-block;
 	
 }
-#gundong .g-left{
+.gundong .g-left{
 	width:20px;
 	height:25px;
 	display: block;
@@ -113,7 +113,7 @@
 	left:5px;
 	top:125px;
 }
-#gundong .g-right{
+.gundong .g-right{
 	width:20px;
 	height:25px;
 	display: block;
@@ -147,42 +147,42 @@
 	height:245px;
 }
 /*更多体验*/
-#main .way1{
+ .way1{
 	width:316px;
 	float:left;
 	margin-right:4px;
 }
-#main .way2{
+ .way2{
 	width:316px;
 	float:left;
 	margin-right:4px;
 }
-#main .way2 form{
+ .way2 form{
 	width:316px;
 	height:27px;
 	text-align: center;
 }
-#main .way2 form div{
+ .way2 form div{
 	display:inline-block;
 	width:124px;
 	height:27px;
 	border:1px solid gray;
 }
-#main .way2 form div input{
+ .way2 form div input{
 	width:104px;
 	height: 25px;
 	border:0;
 	border:none;
 	float:left;
 }
-#main .way2 form div i{
+ .way2 form div i{
 	float:left;
 	width:20px;
 	height:14px;
 	margin-top:5px;
 	background:url(../img/indexNew/footico.gif) right bottom;
 }
-#main .way2 .nowTake{
+ .way2 .nowTake{
 	width:70px;
 	height:27px;
 	background:#5a5a5a;
@@ -192,7 +192,7 @@
 	position:relative;
 	top:-8px;
 }
-#main .way3{
+ .way3{
 	width:316px;
 	float:left;
 	margin-right:4px;
