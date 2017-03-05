@@ -2,7 +2,7 @@ $(function() {
 
 			$.ajax({
 					type: "get",
-					url: "json/zhengbeixuangou.json",
+					url: "../json/zhengbeixuangou.json",
 					async: "true",
 					success: function(response) {
 						//						alert(response);

@@ -1,0 +1,76 @@
+.onclick{
+	background:gray;
+	color:white;
+}
+#main .switchover {
+	padding-left:35px;
+}
+#main .switchover .danpin,#main .switchover .pinpai{
+	display: inline-block;
+	width:120px;
+	height:18px;
+	text-align:center;
+	line-height:18px;
+	font-size:12px;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+/*单品内容*/
+#dpcontent dl{
+	position:relative;
+	width:210px;
+	margin:5px 15px;
+	float:left;
+}
+#dpcontent a{
+	font-size:12px;
+	font-weight:bold;
+	color:gray;
+}
+#dpcontent p{
+	color:lightgray;
+	text-decoration:line-through;
+	
+}
+#dpcontent span{
+	display:block;
+	width:130px;
+	height:18px;
+	line-height:18px;
+	
+	background:red;
+	font-size:12px;
+	color:white;
+	font-weight:bold;
+}
+#dpcontent i{
+	position:absolute;
+	right:0;
+	top:0;
+}
+/*品牌内容*/
+#ppcontent  {
+	padding-left:30px;
+}
+#ppcontent p{
+	padding:0 5px 8px;
+	color:gray;
+	font-size:12px;
+	border-bottom:1px solid gray;
+}
+#ppcontent form div em,#ppcontent form div span{
+	color:gray;
+	font-size:12px;
+	float:left;
+	margin:20px 5px;
+	 cursor:pointer;
+}
+#ppcontent form ul{
+	border-bottom:1px solid gray;
+	padding-bottom:15px;
+}
+#ppcontent form li{
+	width:400px;
+	float:left;
+}

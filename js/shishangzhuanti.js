@@ -1,6 +1,6 @@
 $.ajax({
 					type: "get",
-					url: "json/shishangzhuanti.json",
+					url: "../json/shishangzhuanti.json",
 					async: "true",
 					success: function(response) {
 						//						alert(response);

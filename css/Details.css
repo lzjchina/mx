@@ -201,6 +201,13 @@
 	margin-right:5px;
 }
 #main .Tab ul li a{
+	float:left;
+	width:140px;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+	background:#e6e6e6;
+	margin-right:5px;
 	color:gray;
 	font-size:14px;
 }
@@ -232,4 +239,8 @@
 	font-size:12px;
 	text-decoration: overline;
 	margin-top:5px;
+}
+#main .Tab ul .active{
+	background:darkgray;
+	color:white;
 }

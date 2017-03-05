@@ -1,7 +1,7 @@
 $(function(){
 	// 顶部菜单
 $.ajax({
-	url:"json/top-menu.json",
+	url:"../json/top-menu.json",
 	success:function(response){
 //		console.log(response);
 		$(response).each(function(_index,_value){

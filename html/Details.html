@@ -7,47 +7,16 @@
 		<title>高级腕表 - 奢侈品正品 Gucci 古奇, Prada 普拉达, Burberry, 巴宝利, Miu miu 缪缪 Fendi 芬迪 时尚包包, 皮具, 钱包, 服饰等折扣特卖 - 美西时尚MEICI.COM</title>
 		<link rel="stylesheet" type="text/css" href="../css/public.css" />
 		<link rel="stylesheet" href="../css/Details.css" />
-		<script src="lib/jquery/jquery-1.11.1.min.js"></script>
-		<script src="js/public.js"></script>
-		<script src="js/top-menu.js"></script>
+		<script src="../lib/jquery/jquery-1.11.1.min.js"></script>
+		<script src="../lib/jquery/jquery-1.12.0.js"></script> 
+		<script src="../js/public.js"></script>
+		<script src="../js/top-menu.js"></script>
+		<script src="../js/Details.js"></script> 
 	</head>
 
 	<body>
-		<!--滚动一定距离显示搜索框-->
-		<div id="top-search">
-			<div class="rap">
-				<ul>
-					<li>
-						<a href="#"><img src="img/logo.gif" style="width:200px;" /> </a>
-					</li>
-					<li class="t-search">
-						<form>
-
-							<input type="submit" class="t-button" value="" />
-							<input type="text" class="t-text" placeholder="请输入您的关键词" />
-						</form>
-					</li>
-					<li class="t-menu">
-						<a href="#">
-							<img style="display:inline-block; ;" src="img/brands.png" />
-							<span>时尚导购</span>
-						</a>
-
-					</li>
-
-				</ul>
-				<div class="top-menu-con">
-					<!--<dl>
-						<dt><a href="#"></a></dt>
-						<dd><a href="#"></a></dd>
-						<dd><a href="#"></a></dd>
-						<dd><a href="#"></a></dd>
-						<dd><a href="#"></a></dd>
-					</dl>-->
-				</div>
-			</div>
-
-		</div>
+		
+		
 
 		<!--头部(公共)-->
 		<div id="header">
@@ -56,14 +25,14 @@
 				<div class="sec-one-con">
 					<ul class="login-reg">
 						<li>
-							<a href="#">登录</a>
+							<a href="../html/login.html">登录</a>
 						</li>
 						<li><span>|</span></li>
 						<li>
-							<a href="#">注册</a>
+							<a href="../html/register.html">注册</a>
 						</li>
 						<li>
-							<a href="#" title="订单查询">订单查询</a>
+							<a href="../html/dingdanchaxun.html" title="订单查询">订单查询</a>
 						</li>
 
 					</ul>
@@ -340,12 +309,12 @@
 			</div>
 		
 			<!--滑块（滚动后仍显示）-->
-			<div class="Tab clearfix">
+			<div class="Tab clearfix" style="position:relative;">
 				<ul>
-					<li><a href="#">商品详情</a></li>
-					<li><a href="#">配送及售后</a></li>
+					<li ><a href="#spxq" class="active a1">商品详情</a></li>
+					<li><a href="#pssh"  class=" a2">配送及售后</a></li>
 				</ul>
-				<div class="Tab-buy">
+				<div class="Tab-buy" style="display: none;">
 					<a href="#" class="lijimai"></a>
 					<a href="#" class="jiaru"></a>
 				</div>
@@ -427,7 +396,7 @@
 				
 			
 			<!--配送及售后-->
-			<div id="pssh">
+			<div id="pssh" style="display: none;">
 				<div class="model">
 				<div class="mo-title">
 					<h2><img src="../img/details/xgtj.png"/><h2>

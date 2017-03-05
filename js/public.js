@@ -11,7 +11,7 @@ $(function() {
 
 		//菜单ajax
 		$.ajax({
-			url: "json/menu.json",
+			url: "../json/menu.json",
 			success: function(response) {
 				//			console.log(response);
 				$(response).each(function(_index, _value) {

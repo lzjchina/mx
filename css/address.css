@@ -1,0 +1,27 @@
+#addressMain{
+	width:960px;
+	margin:0 auto;
+}
+#addressMain .formName{
+	height:30px;
+	line-height:30px;
+	color:black;
+	font-weight:bold;
+	padding-left:10px;
+	background:#CCC;
+	border:1px solid gray;
+	font-size:14px; 
+}
+/*#addressMain form{
+	border:1px solid gray;
+}*/
+/*#addressMain form fieldset{
+	border:0;
+	
+}*/
+#addressMain .title{
+	padding: 18px 0 15px 25px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}

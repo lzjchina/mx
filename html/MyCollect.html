@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>我的收藏</title>
+		<link rel="stylesheet" type="text/css" href="../css/public.css" />
+		<link rel="stylesheet" href="../css/MyMC.css" />
+		<link rel="stylesheet" href="../css/MyCollect.css" />
+		<script src="../lib/jquery/jquery-1.11.1.min.js"></script>
+		<script src="../lib/jquery/jquery-1.12.0.js"></script> 
+		<script src="../js/public.js"></script>
+		<script src="../js/top-menu.js"></script>
+		<script src="../js/MyMC.js"></script>
+		<script src="../js/MyCollect.js"></script> 
+	</head>
+	<body>
+			<!--头部(公共)-->
+		<div id="header">
+			<!--模块一(带有购物车部分)-->
+			<div class="h-sec-one">
+				<div class="sec-one-con">
+					<ul class="login-reg">
+						<li>
+							<a href="../html/login.html">登录</a>
+						</li>
+						<li><span>|</span></li>
+						<li>
+							<a href="../html/register.html">注册</a>
+						</li>
+						<li>
+							<a href="../html/dingdanchaxun.html" title="订单查询">订单查询</a>
+						</li>
+
+					</ul>
+
+					<ul class="link-info">
+						<li style="margin-right:23px;">客服热线：4000-250- 630</li>
+						<li class="aboutus">
+							<em></em>
+							<span>关注我们</span>
+							<div class="weixin-weibo">
+								<a href="#">
+									<dl>
+										<dt class="weibo"></dt>
+										<dd>新浪微博</dd>
+									</dl>
+								</a>
+								<a href="#">
+									<dl>
+										<dt class="weixin"></dt>
+										<dd>美西微信</dd>
+									</dl>
+								</a>
+							</div>
+						</li>
+						<!--购物车-->
+						<li class="shop-car">
+							<a href="#">
+
+								<span>购物袋(<em style="color:red">0</em>)</span>
+								<i>|</i>
+								<b><img src="../img/pic_arrow_u_cur.gif" /> </b>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--模块二(带有搜索栏部分)-->
+			<div class="h-sec-two">
+				<div class="mxappBox">
+					<a href="#"><img src="../img/ewm_indexTop.png" /> </a>
+					<span> <img src="../img/ewm_txt.png" /></span>
+				</div>
+				<div class="mxlogo">
+					<a href="#"><img src="../img/meicilogo.png" /></a>
+				</div>
+				<div class="search">
+					<input type="text" placeholder="请输入您的关键字" class="sear-text" />
+					<input type="button" class="btser" />
+				</div>
+			</div>
+			<!--模块三(导航)-->
+			<div class="h-sec-three">
+				<ul class="nav">
+					<li>
+						<a href="#">首页</a>
+					</li>
+					<li>
+						<a href="#">新近单品</a>
+					</li>
+					<li>
+						<a href="#" class="new">全球购
+							<img src="../img/new.png" />
+						</a>
+					</li>
+					<li>
+						<a href="#">女士</a>
+					</li>
+					<li>
+						<a href="#">男仕</a>
+					</li>
+					<li>
+						<a href="#">童装</a>
+					</li>
+					<li>
+						<a href="#">腕表</a>
+					</li>
+					<li>
+						<a href="#">品牌</a>
+					</li>
+					<li>
+						<a href="#">特惠区</a>
+					</li>
+					<li>
+						<a href="#"><img src="../img/mzine.jpg" /></a>
+					</li>
+				</ul>
+
+				<!--菜单栏-->
+				<div class="menu">
+					<!--<dl class="menu-con">
+						<dt><a href="#">今日上新</a></dt>
+						<dt><a href="#">昨日上新</a></dt>
+						<dt><a href="#">本周上新</a></dt>
+					</dl>
+
+					<dl class="menu-con">
+						<dt><a href="#">男仕 Man</a></dt>
+						<dd>
+							<a href="#">包袋 Bags</a>
+						</dd>
+						<dd>
+							<a href="#">配饰Accessories</a>
+						</dd>
+						<dd>
+							<a href="#">鞋履 Shoes</a>
+						</dd>
+						<dd>
+							<a href="#">服装 Clothes</a>
+						</dd>
+					</dl>
+
+					<dl class="menu-con">
+						<dt><a href="#">女士 Woman</a></dt>
+						<dd>
+							<a href="#">包袋 Bags</a>
+						</dd>
+						<dd>
+							<a href="#">配饰 Accessories</a>
+						</dd>
+						<dd>
+							<a href="#">鞋履 Shoes</a>
+						</dd>
+						<dd>
+							<a href="#">服装 Clothes</a>
+						</dd>
+
+					</dl>
+
+					<dl class="menu-con">
+						<dt><a href="#">今日推荐单品</a></dt>
+						<dd class="advise">
+							<a href="#">
+								<img src="img/uploadimg/20161230/1483105178819585889.jpg" />
+								<p>Balmain 巴尔曼</p>
+								<p>全棉 女士 圆领长袖卫衣</p>
+							</a>
+							<a href="#">
+								<img src="img/uploadimg/20161230/1483105178819585889.jpg" />
+								<p>Balmain 巴尔曼</p>
+								<p>全棉 女士 圆领长袖卫衣</p>
+							</a>
+							<a href="#">
+								<img src="img/uploadimg/20161230/1483105178819585889.jpg" />
+								<p>Balmain 巴尔曼</p>
+								<p>全棉 女士 圆领长袖卫衣</p>
+							</a>
+						</dd>
+					</dl>-->
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		<!--主体-->
+		<div id="main" class="clearfix">
+			<!--左边栏-->
+			<div class="leftSide">
+				<p><img style="display:inline-block;" src="../img/pic_member_01.gif" /> </p>
+				
+				<dl>
+					<dd><a href="">我的美西</a></dd>
+					<dd><a href="">我的订单</a></dd>
+					<dd><a href="">我的收藏</a></dd>
+					<dd><a href="">地 址 薄</a></dd>
+					<dd><a href="">个人设置</a></dd>
+					<dd><a href="">快捷支付</a></dd>
+					<dd><a href="">邀请朋友</a></dd>
+					<dd><a href="">晒单有礼</a></dd>
+					<dd><a href="">会员充值</a></dd>
+				</dl>
+			</div>
+			<!--右边主体-->
+			<div class="rightMain">
+				
+				<!--猜你喜欢-->
+				<div class="title">
+					<p>我的收藏·My Favorites</p>
+				</div>
+				
+				<div class="switchover">
+					<em class="danpin onclick">单品</em >
+					<em  href="#ppcontent" class="pinpai ">品牌</em >
+				</div>
+				<!--单品内容-->
+				<div id="dpcontent" >
+					<dl>
+						<dt><a href="#"><img src="../img/r-118374-1.jpg" alt="" /></a></dt>
+						<dd><a href="#">Y-3<br/>
+17春夏新款 ADIDAS Y3 男仕 运动鞋</a></dd>
+						<dd><p>￥1306700.00</p></dd>
+						<dd><span>活动价：￥1081.00</span></dd>
+						<i><img src="../img/pic_del_x.gif" /> </i>
+					</dl>
+				</div>
+				<!--品牌内容-->
+				<div id="ppcontent" style="display: none;">
+					<p>请勾选您想要订阅的品牌。您所订阅的品牌如有新品上新将会以邮件和短信形式通知您。</p>
+					<form>
+						<div class="clearfix">
+							<em  href="#" class="clickAll">订阅全部</em >
+							<span>|</span>
+							<em  href='#' class="del">取消全部订阅</em >
+						</div>
+						<ul class="clearfix">
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+							<li><input type="checkbox" />菲利林 3.1 Phillip Lim</li>
+						</ul>
+					</form>
+				</div>
+			
+			</div>
+		</div>
+		
+		
+		
+				<!--尾部-->
+			<div id="footer">
+				
+				<div class="contact">
+					<ul style="height:">
+						<li class="help">
+							<dl>
+								<dt>购物指南</dt>
+								<dd>
+									<a href="#">购物流程</a>
+								</dd>
+								<dd>
+									<a href="#">配送方式</a>
+								</dd>
+							</dl>
+							<dl>
+								<dt>支付方式</dt>
+								<dd>
+									<a href="#">如何付款</a>
+								</dd>
+								<dd>
+									<a href="#">发票制度</a>
+								</dd>
+							</dl>
+							<dl>
+								<dt>商品说明</dt>
+								<dd>
+									<a href="#">商品尺码</a>
+								</dd>
+								<dd>
+									<a href="#">商品包装</a>
+								</dd>
+							</dl>
+							<dl>
+								<dt>客服中心</dt>
+								<dd>
+									<a href="#">七天退换</a>
+								</dd>
+								<dd>
+									<a href="#">常见问题</a>
+								</dd>
+							</dl>
+						</li>
+
+						<li class="phone">
+							<p>订购热线</p>
+							<b>4000-250-630</b>
+						</li>
+
+						<li class="service">
+							<dl>
+								<dt>订阅美西时尚资讯</dt>
+								<dd>
+									<form>
+										<input type="text" placeholder="请填写你的E-mail" class="f-write" />
+										<input type="submit" value="订阅" class="f-DY" />
+									</form>
+
+								</dd>
+							</dl>
+						</li>
+
+						<li class="ewm">
+							<dl>
+								<dt>美丽时尚APP</dt>
+								<dd>
+									<a href><img src="../img/ewm_indexBot1.png" /> </a>
+								</dd>
+							</dl>
+							<dl>
+								<dt>关注我们</dt>
+								<dd>
+									<a href="#"><img src="../img/ewm_wx.png" /> </a>
+								</dd>
+							</dl>
+						</li>
+					</ul>
+
+				</div>
+
+				<div class="f-nav">
+					<ul>
+						<li>
+							<a href="#">首页</a>
+						</li>
+						<li>
+							<a href="#">关于美西</a>
+						</li>
+						<li>
+							<a href="#">媒体报道</a>
+						</li>
+						<li>
+							<a href="#">正品保证</a>
+						</li>
+						<li>
+							<a href="#">业务合作</a>
+						</li>
+						<li>
+							<a href="#">隐私声明</a>
+						</li>
+						<li>
+							<a href="#">加入美西</a>
+						</li>
+						<li>
+							<a href="#">网站地图</a>
+						</li>
+						<li>
+							<a href="#">联系我们</a>
+						</li>
+
+					</ul>
+				</div>
+
+				<div class="f-bottom">
+					<div class="friends">
+						<ul>
+							<li>
+								<a href="#" class="fre-a"></a>
+							</li>
+							<li>
+								<a href="#" class="fre-b" style="margin-right:30px;"></a>
+							</li>
+							<li>
+								<a href="#" class="fre-c"></a>
+							</li>
+							<li>
+								<a href="#" class="fre-d"></a>
+							</li>
+							<li>
+								<a href="#" class="fre-e"></a>
+							</li>
+							<li>
+								<a href="#" class="fre-f"></a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="Copyright">
+						<p>Copyright &copy; 2008-2016 美西时尚-
+							<a href="#">高端时尚生活电商</a>
+						</p>
+						<p>
+							<a href="#">沪ICP备09001221号</a>
+						</p>
+					</div>
+
+					<div class="safe">
+						<p>
+							<a href="#"><img src="../img/hy_83x30.png" /> </a>
+							<a href="#"><img src="../img/ssgs.gif" /> </a>
+						</p>
+					</div>
+				</div>
+			</div>
+	</body>
+</html>
