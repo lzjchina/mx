@@ -1,3 +1,9 @@
+.error {
+				color: red;
+		}
+.clickBackground{
+	background: #f5f5f5;
+}
 #addressMain{
 	width:960px;
 	margin:0 auto;
@@ -24,4 +30,149 @@
     font-size: 14px;
     font-weight: bold;
     color: #333;
+}
+#addressMain p{
+	font-size:14px;
+	margin:5px 20px;
+	line-height: 20px;;
+}
+#addressMain fieldset p label{
+	 display: inline-block;
+	width:100px;
+	text-align:right;
+}
+#addressMain fieldset p input{
+	height:20px;
+	line-height:20px;
+}
+#addressMain .submit{
+	width:80px;
+	height: 22px;
+	line-height:22px;
+	text-align:center;
+	color:white;
+	background:darkred;
+	border:0;
+}
+#addressMain .queren{
+	width:60px;
+	height:22px;
+	line-height:22px;
+	text-align:center;
+	color:white;
+	background:darkred;
+	border:0;
+	
+}
+.othersInfo{
+	    font-size: 14px;
+    margin: 5px 20px;
+    line-height: 20px;
+}
+
+
+/*支付方式*/
+
+.payWay ul li,.data ul li{
+	margin:2px 0;
+	padding-left:35px;
+	height:35px;
+	line-height:35px;
+	color:gray;
+	font-size:14px;
+}
+.smallTitle{
+	font-size:12px;
+}
+.payWay ul li span{
+	margin-right:25px;
+}
+.payWay ul li a{
+	color:darkred;
+}
+
+/*data*/
+.data p{
+	font-size:14px;
+	color:gray;
+}
+.data span{
+	font-size:14px;
+	
+}
+/*包装方式*/
+.pack ul li{
+	margin:2px 0;
+	padding-left:35px;
+	
+	
+	color:gray;
+	font-size:14px;
+}
+.pack ul li img{
+	display:none;
+}
+.line{
+	border-top:1px solid gray;
+}
+/*商品清单*/
+.list table{
+	text-align:center;
+}
+.list table th{
+	width:900px;
+	background:#eeeeee;
+	font-size:12px;
+	line-height:40px;
+	line-height:40px;
+	font-weight:normal;
+	color:darkgray;
+}
+.list table tr td{
+	border-bottom:1px solid lightgray;
+	padding:5px 0;
+}
+.list table tr a{
+	font-size:12px;
+	color:gray;
+}
+.list table img{
+	display:inline-block;
+}
+/*使用优惠卷*/
+.useYouhuijuan{
+	width:80px;
+	height:22px;
+	line-height:22px;
+	text-align:center;
+	border:0;
+	background:red;
+	color:white;
+}
+
+
+/*zongjia*/
+.zongjia{
+	float:right;
+	color:gray;
+	font-size:12px;
+	
+}
+.zongjia ul li{
+	overflow:hidden;
+}
+.zongjia ul li span{
+	float:left;
+	padding-right:40px;
+}
+.zongjia ul li em{
+	float:right;
+	text-align:right;
+}
+.tijiaodingdan{
+	width:158px;
+	height:48px;
+	background:url(../img/orderbtn.jpg) no-repeat center center;
+	border:0;
+	margin:25px 0; 
 }

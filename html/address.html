@@ -14,6 +14,7 @@
 		<script src="https://static.runoob.com/assets/jquery-validation-1.14.0/lib/jquery.js"></script>
 		<script src="https://static.runoob.com/assets/jquery-validation-1.14.0/dist/jquery.validate.min.js"></script>
 		<script src="https://static.runoob.com/assets/jquery-validation-1.14.0/dist/localization/messages_zh.js"></script>
+		<script src="../js/address.js"></script>
 	</head>
 
 	<body>
@@ -85,7 +86,7 @@
 			<div class="weizhi">
 				<img src="../img/process02.gif" /> 
 			</div>
-			<form action="" method="get">
+			<form class="cmxform" id="commentForm" method="get" action="">
 				<div class="formName">填写并核对订单信息</div>
 				<fieldset>
 					<p class="title">收货人信息</p>
@@ -125,7 +126,211 @@
 							<option>广西</option>
 						</select>
 					</p>
+					<p>
+						<label for="shdz"><span>*</span>收货地址：</label>
+						<input id="shdz" type="text"  style="width:300px" required/>
+					</p>
+					<p>
+						<label for="phone"><span>*</span>手机号码：</label>
+						<input id="phone" type="tel" name="tel" required /> 
+					</p>
+					<p>
+						<label for="gddh">固定电话 ：</label>
+						<input type="text" id="gddh" />
+					</p>
+					<p>
+						<label></label>
+						<input type="submit" class="submit" value="保存地址" />
+					</p>
+					<p>
+						<input type="checkbox" name="check"  class="sendOther"/>此订单作为礼品赠送他人 （?）
+					</p>
+					
+					
+					
+					<div class="othersInfo">
+						<label for="ghrPhone">购货人手机：</label>
+						<input type="tel" name="tel"  />
+						<input type="submit" value="确认" class="queren"/>
+					<p style="font-size:lightgray;font-size:12px;">*我们的时尚购物顾问将会联系此号码。</p>	
+					</div>
+					
 				</fieldset>
+				
+				<fieldset style="border-top:0;">
+					<p class="title">支付方式</p>
+					<div class="payWay">
+						<ul>
+							<li class="smallTitle">支付方式</li>
+							<li>
+								<input type="radio" name="payWay" checked="checked" />
+								<span>在线支付</span>								<span>支持多家银行借记卡、信用卡支付。支付宝支付，微信等多种支付平台；支持美西礼品卡支付。</span>
+							</li>
+							<li>
+								<input type="radio" name="payWay"  />
+								<span>快捷支付</span>
+								<span> 不需开通网银，即可完成支付。</span>
+								<a href="#">查看支持银行卡</a>
+							</li>
+						</ul>
+					</div>
+				</fieldset>
+				
+				<fieldset style="border-top:0;">
+					<p class="title">配送信息</p>
+					
+					<div class="data">
+						<ul>
+							<li class="smallTitle">配送时间</li>
+							<li>
+								<input type="radio" name="data" checked="checked" />
+								<span>所有日期均可收货</span>
+								
+							</li>
+							<li>
+								<input type="radio" name="data"  />
+								<span>仅工作日收货</span>
+								
+							</li>
+							<li>
+								<input type="radio" name="data"  />
+								<span>仅双休日，节假日收货</span>
+								 
+							</li>
+							
+						</ul>
+						<p>温馨提示：我们会努力按照您指定的时间配送，但因天气、交通等各类因素影响，您的订单有可能会有延误现象。</p>
+						<span style="padding-left:35px;">配送方式：快递公司</span>
+					</div>
+					
+				</fieldset>
+				
+				<fieldset style="border-top:0;">
+					<p class="title">包装方式</p>
+					<div class="pack">
+						<ul>
+						<li>
+								<input type="radio" name="pack" class="pack1" />
+								<span>美西标准包装（免费，环保普通包装内放置我们白色美西盒子，更加坚固的保护您的货品）</span>
+								<img src="../img/pic_pack01.jpg" class="tu1"/>	
+						</li>
+						<li>
+								<input type="radio" name="pack"  class="pack2" />
+								<span>环保普通包装（免费，如果您有太多的美西盒子，可以选择更环保的普通包装）</span>
+								<img src="../img/pic_pack02.jpg"class="tu2"/>	
+						</li>
+						<li>
+								<input type="radio" name="pack"  class="pack3" />
+								<span>美西礼品包装（10元，高档的礼品包装，让您的礼物更出众）</span>
+								<img src="../img/pic_pack03.jpg" class="tu3" />	
+						</li>
+					</ul>
+					</div>
+					
+					<div class="line"></div>
+					<p>购物顾问：<select>
+						<option>-不指定购物顾问-</option>
+						<option>q</option>
+						<option>w</option>
+						<option>e</option>
+						<option>r</option>
+						<option>t</option>
+						<option>fdd</option>
+						<option>dgd</option>
+						<option>ag</option>
+					</select>
+					</p>
+					<p>
+						特殊要求：
+						<textarea style="width:600px;height:60px;" ></textarea>
+					</p>
+				</fieldset>
+				
+				<fieldset style="border-top:0;">
+					<p class="title">商品清单</p>
+					<div class="list">			
+						<table cellspacing="0">
+					<tbody>
+						<tr>
+							<th>商品图片</th>
+							<th >商品名称</th>
+							<th>单价</th>
+							<th>数量</th>
+							<th>小计</th>
+							
+						</tr>
+						
+						<tr>
+							<td>
+								<a href="http://www.meici.com/product/detail/id/073239/saleid/70701.html"><img src="../img/s-073239-1.jpg" /> </a>
+							</td>
+							<td>
+								<a href="http://www.meici.com/product/detail/id/073239/saleid/70701.html">CANALI 康纳利 全棉 男仕 单西 
+尺码：46</a>
+							</td>
+							
+							<td>1</td>
+							<td>￥15120.00</td>
+							
+							<td>
+								￥1081010.00
+							</td>
+							
+						</tr>
+						<tr>
+							<td>
+								<a href="http://www.meici.com/product/detail/id/073239/saleid/70701.html"><img src="../img/s-073239-1.jpg" /> </a>
+							</td>
+							<td>
+								<a href="http://www.meici.com/product/detail/id/073239/saleid/70701.html">CANALI 康纳利 全棉 男仕 单西 
+尺码：46</a>
+							</td>
+							
+							<td>1</td>
+							<td>￥15120.00</td>
+							<td>
+								￥15120.00
+							</td>
+							
+						</tr>
+					</tbody>
+				</table>
+					</div>
+					
+					<div>使用优惠卷(<span>0</span>)<img src="../img/xiajt.png" /> 
+					</div>
+					<div>
+						
+						<input type="text"  style="height:22px;line-height:20px;"/>
+						<input type="button"  value="使用优惠卷" class="useYouhuijuan"/>
+					</div>
+						
+					<div class="zongjia">
+						<ul>
+							<li><span>合　　计：</span><em>￥1298160.00</em></li>
+						
+						
+							<li><span>运　　费：</span><em>￥0.00</em></li>
+					
+							<li><span>包　　装：</span><em>	￥0.00</em></li>
+						
+					
+							<li><span>优惠券:</span><em>￥0.00</em></li>
+						
+					
+							<li><span>活动折扣：</span><em>-￥108000.00</em></li>
+						
+					
+							<li><span>总　　计：</span><em>￥1190160.00</em></li>
+							
+							<li>
+								<input type="submit" value="" class="tijiaodingdan"/>
+							</li>
+						</ul>
+					</div>
+					
+				</fieldset>
+			
 			</form>
 		</div>
 		<!--尾部-->

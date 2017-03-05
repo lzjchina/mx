@@ -124,14 +124,14 @@
 	top:125px;
 }
 /*时尚专题推荐*/
-#main .M1,#main .M2,#main .M3{
+ .M1, .M2, .M3{
 	width:315px;
 	height:245px;
 	margin-right:5px;
 	float:left;
 	position:relative;
 }
-#main .M1 p,#main .M2 p,#main .M3 p{
+ .M1 p, .M2 p, .M3 p{
 	width:100%;
 	height:35px;
 	color:#000;
@@ -142,7 +142,7 @@
 	background-color: rgba(255,255,255,0.8);
 	line-height:35px;
 }
-#main .M1 img,#main .M2 img,#main .M3 img{
+ .M1 img, .M2 img, .M3 img{
 	width:315px;
 	height:245px;
 }
