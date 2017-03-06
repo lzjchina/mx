@@ -1,0 +1,48 @@
+#main .rightMain .dingdan table{
+	width:805px;
+	margin-left:30px;
+	text-align:center;
+	font-size:12px;
+	padding-bottom: 25px;
+	border-bottom:1px solid lightgray;
+}
+#main .rightMain .dingdan table th{
+	height:35px;
+	background:#efefef;
+	line-height:35px;
+	color:black;
+	font-size:12px;
+	
+}
+/*没有订单*/
+#main .rightMain .meiyoudd{
+	height:200px;
+	line-height: 200px;
+	text-align:center;
+	font-size:12px;
+	color:gray;
+	width:805px;
+	margin-left:30px;
+	border-bottom:1px solid gray;
+}
+#main .rightMain .meiyoudd a{
+	color:darkred;
+	text-decoration:underline;
+	margin-right:10px;
+}
+
+
+#main .rightMain .moblie,#main .rightMain .shaidantupian{
+	width:805px;
+	margin-left:30px;
+	margin-bottom:30px;
+	
+}
+#main .rightMain .mobile dl{
+	margin:10px;
+	float:left;
+	text-align:center;
+}
+#main .rightMain .mobile dl img{
+	display: inline-block;
+}

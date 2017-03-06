@@ -1,0 +1,39 @@
+#main .rightMain form{
+	padding-left:30px;
+	color:gray;
+	font-size:12px;
+}
+#main .rightMain form p{
+	color:lightgray;
+	margin:10px 0;
+}
+#main .rightMain form ul li{
+	margin:15px 0;
+	height:20px;
+	line-height:20px;
+}
+#main .rightMain form ul li input{
+	display: inline-block;
+	height:20px;
+	vertical-align: middle;
+	
+}
+#main .yanzhengshouji{
+	display: inline-block;
+	cursor: pointer;
+	vertical-align: middle;
+}
+#main .rightMain form ul li span{
+	display: inline-block;
+	padding-bottom:10px;
+}
+#main .rightMain form ul li .saveChange{
+	width:95px;
+	height:30px;
+	background:url(../img/bg_public_btn_bg.gif) no-repeat left top;
+	line-height:30px;
+	text-align:center;
+	font-size:14px;
+	color:white;
+	margin-left:60px;
+}
